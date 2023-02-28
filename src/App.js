@@ -1,19 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+import Contact from './components/Contact';
 import React, { Component } from 'react';
 
 class App extends Component {
-  constructor() {
-    super();
-
-    this.state = {
-      name: '',
-      email: '',
-      phone: '',
-    };
+  render() {
+    return <Contact />;
   }
-
-  render() {}
 }
 
 export default App;
